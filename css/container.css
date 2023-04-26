@@ -1,0 +1,74 @@
+.content {
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  width: 100%;
+  }
+
+.info-pelicula{
+  padding: 15px 0;
+}
+
+aside{
+  padding: 35px 40px;
+  
+}
+
+aside img{
+  width: 300px;
+
+}
+
+.info-pelicula p{
+  border-right: none;
+  margin: 0;
+  padding: 2px 0;
+  font-size: 0.89rem;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.review-pelicula{
+  width: 55vw;
+  margin-top: 35px;
+}
+
+.review-pelicula p{
+  font-weight: 300;
+  padding: 15px 20px;
+  line-height: 28px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.review-text{
+  border-left: solid 2px var(--gray-color);
+}
+
+.review-pelicula h2{
+  margin: 0;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+
+}
+
+.review-pelicula > .primer-parrafo{
+  text-indent: 2rem;
+}
+
+.trailer-video {
+  position: relative; /* agregar posición absoluta */
+}
+
+.trailer-video iframe{
+  display: block;
+  margin: 20px auto;
+  width: 48vw;
+  height: 46vh;
+}
+
+
+

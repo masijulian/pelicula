@@ -1,0 +1,119 @@
+@media screen and (max-width: 750px) {
+
+  * {
+    box-sizing: border-box; /* incluye el tamaño del borde y el relleno en el ancho y alto del elemento */
+  }
+
+  nav{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+  nav > ul > li {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    border-bottom: solid 1px var(--gray-color);
+    margin: 0;
+    padding: 10px;
+    }
+
+    .ultimo-enlace {
+      border-bottom: none;
+    }
+
+ .logo-colegio img{
+  width: 0;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: justify;
+}
+
+aside{
+  margin-top: 20px;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+aside img{
+  padding: 20px;
+  justify-items: center;
+  width: 270px;
+  align-items: center;
+}
+
+aside p{
+  margin-right: auto;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.info-pelicula{
+  font-style: oblique;
+  text-align: justify;
+  padding: 10px 10px;
+  
+}
+
+.info-pelicula p{
+  text-align: left;
+  padding: 3px 0;
+  font-size: small;
+}
+
+
+.review-pelicula {
+  padding: 15px 0;
+  width: 98%;
+  margin: 0;
+  align-items: center;
+}
+
+.review-pelicula p{
+  text-align: justify;
+  padding: 15px;
+  border: none;
+}
+
+.review-pelicula iframe{
+  display: block;
+  margin: 0 auto;
+  width: 80vw;
+  
+}
+
+.review-text{
+  border: none;
+}
+
+}
+
+@media screen and (max-width: 600px){
+
+  aside img{
+    margin: 0 auto;
+  }
+  
+  .info-pelicula {
+    margin: 0 auto;
+  }
+  
+  .review-text{
+    border: none;
+  }
+
+  }

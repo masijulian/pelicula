@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box; /* incluye el tamaño del borde y el relleno en el ancho y alto del elemento */
+  }
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    background-color: var(--background-color);
+    
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover{
+    color: var(--primary-color);
+
+}
+
+p{
+    margin: 0;
+    text-align: left;
+    color:  white;
+    font-size: 18px;
+    line-height: 1.5;
+    width: 100%;
+}
+
+:after {
+    content: " ";
+ }
